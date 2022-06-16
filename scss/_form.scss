@@ -1,0 +1,83 @@
+form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: auto;
+  margin-top: 4rem;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  width: 30rem;
+
+  gap: 25px;
+}
+form div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  h3 {
+    font-size: 1.75rem;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+
+  label {
+    width: 25%;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 10px;
+  }
+  input {
+    width: 30rem;
+    height: 3rem;
+    padding-inline-start: 2rem;
+  }
+  button {
+    font-weight: 900;
+    color: white;
+    font-size: 15px;
+    background-color: black;
+    width: 30rem;
+    height: 3rem;
+    border: none;
+    box-shadow: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #6328e0;
+    font-family: sans-serif;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+.enter:hover {
+  background-color: #6c6c6c;
+}
+
+.label1 .zds-icon {
+  position: absolute;
+  top: 50px;
+  left: 4px;
+  font-size: 20px;
+}
+
+.label2 .zds-icon {
+  position: absolute;
+  top: 50px;
+  left: 4px;
+  font-size: 20px;
+}
+.label2 .zds-icon1 {
+  position: absolute;
+  right: 30px;
+  top: 50px;
+  font-size: 20px;
+}

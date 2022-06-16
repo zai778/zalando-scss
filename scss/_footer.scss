@@ -1,0 +1,32 @@
+footer {
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.last-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-top: 2.8rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+.li1:hover,
+.li2:hover,
+.li3:hover {
+  text-decoration: underline;
+}
+
+.zds-icon66 {
+  color: #ff6900;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+}

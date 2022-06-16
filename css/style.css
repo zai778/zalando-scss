@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid gray;
+  position: relative;
+  top: 0;
+}
+
+.reg {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.login {
+  padding: 2px;
+  margin-left: 7px;
+  margin-top: 2px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.linky {
+  color: #6328e0;
+  padding: 2px;
+  margin-right: 10px;
+  text-decoration: none;
+  margin-top: 2px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.linky:hover {
+  text-decoration: underline;
+}
+
+.x {
+  padding: 7px;
+  border-right: 1px solid gray;
+}
+
+section {
+  display: flex;
+  position: relative;
+  top: 30px;
+  margin-left: 250px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: auto;
+  margin-top: 4rem;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  width: 30rem;
+  gap: 25px;
+}
+
+form div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+form h3 {
+  font-size: 1.75rem;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+form label {
+  width: 25%;
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 10px;
+}
+form input {
+  width: 30rem;
+  height: 3rem;
+  padding-inline-start: 2rem;
+}
+form button {
+  font-weight: 900;
+  color: white;
+  font-size: 15px;
+  background-color: black;
+  width: 30rem;
+  height: 3rem;
+  border: none;
+  box-shadow: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+form a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #6328e0;
+  font-family: sans-serif;
+}
+form a:hover {
+  text-decoration: underline;
+}
+
+.enter:hover {
+  background-color: #6c6c6c;
+}
+
+.label1 .zds-icon {
+  position: absolute;
+  top: 50px;
+  left: 4px;
+  font-size: 20px;
+}
+
+.label2 .zds-icon {
+  position: absolute;
+  top: 50px;
+  left: 4px;
+  font-size: 20px;
+}
+
+.label2 .zds-icon1 {
+  position: absolute;
+  right: 30px;
+  top: 50px;
+  font-size: 20px;
+}
+
+article {
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+}
+article button {
+  width: 100%;
+  height: 3rem;
+  background-color: white;
+  border: 2px solid gray;
+}
+article article .reg-b {
+  width: 30rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+article h3 {
+  font-family: sans-serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+article .new:hover {
+  border: none;
+  background-color: #6c6c6c;
+}
+
+footer {
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.last-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-top: 2.8rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.li1:hover,
+.li2:hover,
+.li3:hover {
+  text-decoration: underline;
+}
+
+.zds-icon66 {
+  color: #ff6900;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+@media screen and (min-width: 900px) {
+  header {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  section {
+    margin-left: 0.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
